@@ -1,6 +1,6 @@
 from loguru import logger
 import torch
-from clustermoe.main import create_coe_model
+from cluster_moe.main import create_coe_model
 
 # Enhanced example usage and testing
 if __name__ == "__main__":

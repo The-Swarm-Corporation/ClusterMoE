@@ -66,15 +66,7 @@ Output
 ## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/The-Swarm-Corporation/ClusterMoE.git
-cd ClusterMoE
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Install the package
-pip install -e .
+pip3 install -u cluster-moe
 ```
 
 ## Quick Start
@@ -331,7 +323,7 @@ If you use ClusterMoE in your research, please cite our work:
 @misc{clustermoe2024,
   title={ClusterMoE: Hierarchical Expert Clustering for Enhanced Mixture of Experts},
   author={The Swarm Corporation},
-  year={2024},
+  year={2025},
   howpublished={\url{https://github.com/The-Swarm-Corporation/ClusterMoE}},
   note={A novel neural network architecture extending Mixture of Experts with hierarchical clustering}
 }
@@ -344,7 +336,7 @@ If you use ClusterMoE in your research, please cite our work:
   title={ClusterMoE: Hierarchical Expert Clustering for Enhanced Mixture of Experts},
   author={The Swarm Corporation},
   journal={arXiv preprint},
-  year={2024},
+  year={2025},
   url={https://github.com/The-Swarm-Corporation/ClusterMoE},
   doi={10.5281/zenodo.1234567}
 }
