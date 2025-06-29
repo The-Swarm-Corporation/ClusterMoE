@@ -1,14 +1,12 @@
 from cluster_moe.main import (
     # Configuration
     CoEConfig,
-    
     # Core components
     Expert,
     ExpertCluster,
     TreeRouter,
     ClusterOfExpertsLayer,
     ClusterOfExpertsModel,
-    
     # Factory function
     create_coe_model,
 )
@@ -19,7 +17,7 @@ __license__ = "MIT"
 
 __all__ = [
     "CoEConfig",
-    "Expert", 
+    "Expert",
     "ExpertCluster",
     "TreeRouter",
     "ClusterOfExpertsLayer",

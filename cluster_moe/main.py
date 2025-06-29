@@ -1074,9 +1074,11 @@ class ClusterOfExpertsModel(nn.Module):
             "num_layers": self.num_layers,
             "num_clusters": self.config.num_clusters,
             "experts_per_cluster": self.config.experts_per_cluster,
-            "total_experts": self.num_layers
-            * self.config.num_clusters
-            * self.config.experts_per_cluster,
+            "total_experts": (
+                self.num_layers
+                * self.config.num_clusters
+                * self.config.experts_per_cluster
+            ),
             "model_reliability": self.model_reliability.item(),
             "training_step": self.training_step.item(),
         }
